@@ -1,0 +1,106 @@
+body{
+    background-image: url(./images/background2.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 690px;
+   
+    
+}
+#scoreboard {
+width: 20%;
+margin-left:0;
+position: relative;
+top: -130px;
+}
+#scoreboard ul li{
+    list-style: none;
+    font-size: 35px;
+    color: white;
+    text-shadow: 3px 2px 5px greenyellow;
+}
+#resultsection ul li{
+ font-size:35px;
+list-style: none;
+ color:coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  display: inline-block;
+
+}
+.h1{
+    margin-left: 80px;
+    margin-right: 60px;
+}
+.h2{
+    margin-right: 60px;
+}
+#reset{
+    position: relative;
+    top: -202px;
+    left:1130px;
+    width: 115px;
+    height: 80px;
+    filter: drop-shadow(0px -1px 10px rgb(240, 103, 103));
+}
+#reset:hover{
+    transform: scale(1.1);
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    /* color: chartreuse;
+    text-shadow: 10px 10px 10px rgb(83, 192, 222) ; */
+    color:chartreuse;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  /* color: chartreuse;
+  text-shadow: -1px 0 blue, 0 1px #2efef7, 1px 0 blue, 0 -1px blue; */
+}
+     
+
+#images{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+#Rock{
+    width: 230px;
+    height: 200px;
+    border: 1px solid transparent;
+    filter: drop-shadow(5px 5px 10px #c5c1b8);
+    
+}
+#Rock:hover{
+    /* transform: rotate(5deg);
+    transition: ease-in 0s; */
+    transform: scale(1.1);
+}
+#Paper{
+    width: 200px;
+    height: 200px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: -4px 3px 16px black;
+    
+}
+#Paper:hover{
+    /* transform: rotate(-5deg);
+    transition: ease-in-out 0s; */
+    transform: scale(1.1);
+}
+#Scissors{
+    width: 200px;
+    height: 200px;
+    border: 1px solid transparent;
+    filter: drop-shadow(5px 5px 10px #fad426);
+}
+#Scissors:hover{
+    /* transform: rotate(5deg);
+    transition: ease-in-out 0s; */
+    transform: scale(1.2);
+}
+    
+   
+
+

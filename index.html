@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="./rock.css">
+   
+</head>
+<body>
+
+    <h1>ROCK PAPER SCISSORS GAME</h1>
+    <div id="images">
+      <img src="./images/rock.png" alt="Rock" onclick="playGame('Rock')" id="Rock">
+      <img src="./images/paper.png" alt="paper" onclick="playGame('Paper')" id="Paper">
+      <img src="./images/scissor1-removebg-preview (1).png" alt="scissor"  onclick="playGame('scissor')" id="Scissors">
+   </div>   
+   <div id="scoreboard">
+<ul>
+    <li>Win:<span id="Winspan">0</span></li>
+    <li>Lose:<span id="Losespan">0</span></li>
+    <li>Tie:<span id="Tiespan">0</span></li>
+</ul>
+   </div>
+   <section id="resultsection">
+    <ul>
+        <li class="h1">You Choose:<span id="playerH1"></span></li>
+        <li class="h2">Computer Choose:<span id="computerH1"></span></li>
+        <li class="h3">Result:<span id="resultH1"></span></li>
+    </ul>
+    <!-- <h1 class="h1">You Choose:<span id="playerH1"></span></h1>
+    <h1 class="h2">Computer Choose:<span id="computerH1"></span></h1>
+    <h1 class="h3">Result:<span id="resultH1"></span></h1> -->
+   </section>
+   <img src="./images/RESET-removebg-preview.png" alt="reset" onclick="reset()" id="reset">
+   <!-- score.Win=0;
+//    score.Lose=0;)
+//    score.Tie=0;" -->
+
+    <script src="./rock.js"></script>
+</body>
+</html>
